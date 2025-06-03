@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 
+body{
+  margin: 0;
+}
+
+
+
+
 *{
   font-family: "Jua", sans-serif;
   font-weight: 100;
@@ -9,9 +16,9 @@
 nav {
   display: flex;
   align-items: center;
-  background-color: #614836;
-  margin-bottom: 1vw;
+  background-color: #cae1f8;
   padding: 0;
+  width: 100%;
 }
 
 
@@ -22,7 +29,6 @@ nav {
 
 nav a {
   justify-content: center;
-  background-color: #b99976;
   align-items: center;
   display: flex;
   color: #000; 
@@ -36,12 +42,12 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #614836;
+  background-color: #292f64;
   color: #fff;
 }
 
 nav a.active {
-  background-color: #987554;
+  background-color: #e8e1f8;
   color: #000000;
 }
 
@@ -51,14 +57,13 @@ nav a.active {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 40vw;
+  width: 100%;
 }
 
 .carousel-inner {
   position: relative;
   overflow: hidden;
   width: 100%;
-  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
   height: 30vw;
 }
 
@@ -76,20 +81,20 @@ nav a.active {
 
 .carousel-item img {
   display: block;
-  width: 30vw;
+  width: 100%;
 }
 
 /* button control */
 .carousel-control {
-  background: #b7b7b7;
+  background: #faf2db;
   opacity: 80%;
   border-radius: 50%;
   color: #000;
   cursor: pointer;
   line-height: 2vw;
   display: none;
-  font-size: 2vw;
-  height:  2.5vw;
+  font-size: 3vw;
+  height:  2.4vw;
   position: absolute;
   top: 50%;
   cursor: pointer;
@@ -107,8 +112,8 @@ nav a.active {
 }
 
 .carousel-control:hover {
-  background: #b99976;
-  color: #000;
+  background: #292f64;
+  color: #fff;
 }
 
 #carousel-1:checked ~ .control-1,
@@ -149,4 +154,20 @@ nav a.active {
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
   color: #428bca;
+}
+
+.caption {
+  position: absolute;
+  top: 12vw;
+  border-radius: 10px;
+  left: 50vw;
+  transform: translateX(-50%);
+  background-color: #faf2db;
+  color: #000;
+  font-size: 4vw;
+  padding: 2vh;
+  text-align: center;
+  width: 35vw;
+  height: 10vw;
+  z-index: 10;
 }
