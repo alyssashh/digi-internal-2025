@@ -51,6 +51,11 @@ nav a.active {
   color: #000000;
 }
 
+.huzzah {
+ width: 15vw;
+margin-top: 1.5vw;
+}
+
 /* carousel */
 .carousel {
   position: relative;
