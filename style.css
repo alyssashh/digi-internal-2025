@@ -180,14 +180,13 @@ margin-top: 1.5vw;
 .section-1-two-column{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10vw;
-  margin-left: 7vw;
-  margin-right: 0.5vw;
-  margin-top: 2vw;
+  gap: 5vw;
+  margin: 4vw;
+  margin-left: 5vw;
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 p {
@@ -195,16 +194,39 @@ p {
 }
 
 .photo-1 {
- width: 75%; 
+ width: 90%; 
 }
 
 
 .section-2-two-column{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10vw;
-  margin-left: 7vw;
-  margin-right: 0.5vw;
-  margin-top: 2vw;
+  gap: 5vw;
+  margin: 4vw;
+  margin-right: 5vw;
 }
 
+.photo-2 {
+  width: 100%;
+}
+
+.section-3-three-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2vw;
+  margin: 4vw;
+  margin-right: 5vw;
+}
+
+button {
+  background-color: #cae1f8;
+  margin: 5vw;
+  border-radius: 1.1vw;
+  border-style: none;
+  size: 5vw;
+}
+
+button a {
+  text-decoration: none;
+  font-size: 1vw;
+}
