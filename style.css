@@ -7,7 +7,7 @@ body{
 
 
 
-*{
+* {
   font-family: "Jua", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #292f64;
+  background-color: #5b4681;
   color: #fff;
 }
 
@@ -51,7 +51,7 @@ nav a.active {
   color: #000000;
 }
 
-.huzzah {
+.home-logo {
  width: 15vw;
 margin-top: 1.5vw;
 }
@@ -117,7 +117,7 @@ margin-top: 1.5vw;
 }
 
 .carousel-control:hover {
-  background: #292f64;
+  background: #5b4681;
   color: #fff;
 }
 
@@ -181,7 +181,7 @@ margin-top: 1.5vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5vw;
-  margin: 4vw;
+  margin: 3vw;
   margin-left: 5vw;
 }
 
@@ -190,11 +190,12 @@ h1 {
 }
 
 p {
-  font-size: 1.8vw;
+  font-size: 1.5vw;
 }
 
 .photo-1 {
  width: 90%; 
+ margin-left: 10w;
 }
 
 
@@ -202,31 +203,43 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5vw;
-  margin: 4vw;
-  margin-right: 5vw;
+  margin: 3vw;
+  margin-left: 2vw;
 }
 
 .photo-2 {
-  width: 100%;
+  width: 90%;
+  margin-left: 3vw;
 }
 
 .section-3-three-column {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2vw;
-  margin: 4vw;
-  margin-right: 5vw;
+  background-color: antiquewhite;
+}
+
+.picture {
+  width: 70%;
+  align-items: center;
+  margin-left: 5vw;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
+  border-radius: 0.8vw;
 }
 
 button {
   background-color: #cae1f8;
-  margin: 5vw;
-  border-radius: 1.1vw;
+  border-radius: 0.8vw;
   border-style: none;
-  size: 5vw;
+  margin-bottom: 5vw;
+  margin-left: 12vw;
+  width: 9vw;
+  height: 2.3vw;
 }
 
 button a {
   text-decoration: none;
-  font-size: 1vw;
+  font-size: 1.3vw;
+  color: #000;
+  margin-bottom: 25vw;
 }
