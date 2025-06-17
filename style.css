@@ -177,21 +177,34 @@ margin-top: 1.5vw;
   z-index: 10;
 }
 
+.caption-2 {
+  position: absolute;
+  top: 12vw;
+  border-radius: 10px;
+  left: 50vw;
+  transform: translateX(-50%);
+  background-color: #e1daf5;
+  color: #000;
+  font-size: 4vw;
+  padding: 2vh;
+  text-align: center;
+  width: 35vw;
+  height: 10vw;
+  z-index: 10;
+}
+
 .section-1-two-column{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5vw;
-  margin: 3vw;
-  margin-left: 5vw;
+  margin-top: 2vw;
+  margin-left: 6vw;
 }
 
 h1 {
   font-size: 2.5vw;
 }
 
-p {
-  font-size: 1.5vw;
-}
 
 .photo-1 {
  width: 90%; 
@@ -203,8 +216,9 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5vw;
-  margin: 3vw;
-  margin-left: 2vw;
+  margin: 2vw;
+  margin-left: 1vw;
+  margin-bottom: 3vw;
 }
 
 .photo-2 {
@@ -215,7 +229,7 @@ p {
 .section-3-three-column {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: antiquewhite;
+  background-color: #faf2db;
 }
 
 .picture {
@@ -231,8 +245,8 @@ button {
   background-color: #cae1f8;
   border-radius: 0.8vw;
   border-style: none;
-  margin-bottom: 5vw;
-  margin-left: 12vw;
+  margin-bottom: 3vw;
+  margin-left: 11.5vw;
   width: 9vw;
   height: 2.3vw;
 }
