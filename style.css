@@ -221,9 +221,25 @@ h1 {
   margin-bottom: 3vw;
 }
 
+.section-2-two-column2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
+  background-color: #faf2db;
+  margin-top: 2vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+}
+
 .photo-2 {
   width: 90%;
   margin-left: 3vw;
+}
+
+.photo-3 {
+  width: 90%;
+  margin-left: 5vw;
+  margin-top: 3vw;
 }
 
 .section-3-three-column {
@@ -232,11 +248,26 @@ h1 {
   background-color: #faf2db;
 }
 
+.section-3-three-column3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 .picture {
   width: 70%;
   align-items: center;
   margin-left: 5vw;
   margin-top: 3vw;
+  margin-bottom: 2vw;
+  border-radius: 0.8vw;
+}
+
+.picture1 {
+  width: 70%;
+  align-items: center;
+  margin-left: 5vw;
+  margin-top: 0.8vw;
   margin-bottom: 2vw;
   border-radius: 0.8vw;
 }
