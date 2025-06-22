@@ -253,6 +253,10 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.section-4-three-column3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 .picture {
   width: 70%;
