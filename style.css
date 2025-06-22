@@ -204,7 +204,9 @@ margin-top: 1.5vw;
 h1 {
   font-size: 2.5vw;
 }
-
+li {
+  font-size: 1.5vw;
+}
 
 .photo-1 {
  width: 90%; 
