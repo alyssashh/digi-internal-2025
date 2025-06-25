@@ -253,27 +253,28 @@ li {
 .section-3-three-column3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 3vw;
 }
 
 .section-4-three-column3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #faf2db;
 }
 
 .picture {
-  width: 70%;
+  width: 100%;
   align-items: center;
-  margin-left: 5vw;
-  margin-top: 3vw;
-  margin-bottom: 2vw;
+  margin-right: 6vw;
+  margin-bottom: -2vw;
   border-radius: 0.8vw;
 }
 
 .picture1 {
-  width: 70%;
+  width: 80%;
   align-items: center;
-  margin-left: 5vw;
-  margin-top: 0.8vw;
+  margin-left: 6vw;
+  margin-top: -1vw;
   margin-bottom: 2vw;
   border-radius: 0.8vw;
 }
