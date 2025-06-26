@@ -248,6 +248,7 @@ li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #faf2db;
+  padding-bottom: 2vw;
 }
 
 .section-3-three-column3 {
@@ -263,9 +264,10 @@ li {
 }
 
 .picture {
-  width: 100%;
+  width: 80%;
   align-items: center;
-  margin-right: 6vw;
+  margin-left: 3vw;
+  margin-top: 3vw;
   margin-bottom: -2vw;
   border-radius: 0.8vw;
 }
@@ -273,7 +275,7 @@ li {
 .picture1 {
   width: 80%;
   align-items: center;
-  margin-left: 6vw;
+  margin-left: 3.5vw;
   margin-top: -1vw;
   margin-bottom: 2vw;
   border-radius: 0.8vw;
@@ -294,4 +296,23 @@ button a {
   font-size: 1.3vw;
   color: #000;
   margin-bottom: 25vw;
+}
+
+.footer {
+  width: 100%;
+  background-color: #aecbe4;
+  color: #000;
+  text-align: left;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.section-2-two-column2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
+  background-color: #faf2db;
+  margin-top: 10vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
 }
