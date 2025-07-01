@@ -201,6 +201,14 @@ margin-top: 1.5vw;
   margin-left: 6vw;
 }
 
+.section-1-two-column1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
+  margin-top: 2vw;
+  margin-left: 6vw;
+}
+
 h1 {
   font-size: 2.5vw;
 }
@@ -241,7 +249,7 @@ li {
 .photo-3 {
   width: 90%;
   margin-left: 5vw;
-  margin-top: 3vw;
+  margin-top: 2vw;
 }
 
 .section-3-three-column {
@@ -261,6 +269,11 @@ li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #faf2db;
+}
+
+.section-3-three-column4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .picture {
@@ -296,6 +309,11 @@ button a {
   font-size: 1.3vw;
   color: #000;
   margin-bottom: 25vw;
+}
+
+button:hover {
+  background-color: #6f462abd;
+  color: #fff;
 }
 
 .footer {
