@@ -252,6 +252,11 @@ li {
   margin-top: 2vw;
 }
 
+.photo-4 {
+  width: 90%;
+  border-radius: 0.8vw;
+}
+
 .section-3-three-column {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -274,6 +279,7 @@ li {
 .section-3-three-column4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 2vw;
 }
 
 .picture {
