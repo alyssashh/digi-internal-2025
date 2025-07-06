@@ -201,19 +201,21 @@ margin-top: 1.5vw;
   margin-left: 6vw;
 }
 
-.section-1-two-column1{
+.section-1-two-column2{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5vw;
   margin-top: 2vw;
   margin-left: 6vw;
+  margin-bottom: -8vw;
 }
 
 h1 {
   font-size: 2.5vw;
 }
+
 li {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
 }
 
 .photo-1 {
@@ -221,11 +223,17 @@ li {
  margin-left: 10w;
 }
 
+.photo-one {
+ width: 90%; 
+ margin-left: 10w;
+ margin-top: 2vw;
+}
+
 
 .section-2-two-column{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5vw;
+  gap: 2vw;
   margin: 2vw;
   margin-left: 1vw;
   margin-bottom: 3vw;
@@ -244,6 +252,7 @@ li {
 .photo-2 {
   width: 90%;
   margin-left: 3vw;
+  margin-top: 2vw;
 }
 
 .photo-3 {
@@ -282,6 +291,11 @@ li {
   margin-bottom: 2vw;
 }
 
+.section-3-three-column5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .picture {
   width: 80%;
   align-items: center;
@@ -295,31 +309,40 @@ li {
   width: 80%;
   align-items: center;
   margin-left: 3.5vw;
-  margin-top: -1vw;
-  margin-bottom: 2vw;
+  margin-top: -0.5vw;
+  margin-bottom: 1vw;
+  border-radius: 0.8vw;
+}
+
+.picture1tweak {
+  width: 80%;
+  align-items: center;
+  margin-left: 3.5vw;
+  margin-top: 1.5vw;
+  margin-bottom: 1vw;
   border-radius: 0.8vw;
 }
 
 button {
-  background-color: #cae1f8;
+  background-color: #BA96B0;
   border-radius: 0.8vw;
   border-style: none;
-  margin-bottom: 3vw;
-  margin-left: 11.5vw;
-  width: 9vw;
+  margin-bottom: 2vw;
+  margin-left: 13vw;
+  width: 7vw;
   height: 2.3vw;
 }
 
 button a {
   text-decoration: none;
-  font-size: 1.3vw;
-  color: #000;
+  font-size: 1.1vw;
   margin-bottom: 25vw;
+  color: #000;
 }
 
 button:hover {
   background-color: #6f462abd;
-  color: #fff;
+  color: #428bca;
 }
 
 .footer {
