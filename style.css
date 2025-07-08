@@ -201,14 +201,34 @@ margin-top: 1.5vw;
   margin-left: 6vw;
 }
 
+.section-one-two-column{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8vw;
+  margin-top: 2vw;
+  margin-left: 6vw;
+  margin-bottom: -5vw;
+}
+
 .section-1-two-column2{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5vw;
   margin-top: 2vw;
   margin-left: 6vw;
-  margin-bottom: -8vw;
+  margin-bottom: -6vw;
 }
+
+/* photography column */
+.section-one-two-column2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8vw;
+  margin-top: 2vw;
+  margin-left: 6vw;
+  margin-bottom: -12vw;
+}
+
 
 h1 {
   font-size: 2.5vw;
@@ -229,7 +249,11 @@ li {
  margin-top: 2vw;
 }
 
+.photo-5 {
+ width: 85%; 
+}
 
+/* index */
 .section-2-two-column{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -239,14 +263,26 @@ li {
   margin-bottom: 3vw;
 }
 
+
+/* painting + writing*/
 .section-2-two-column2{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5vw;
   background-color: #faf2db;
-  margin-top: 2vw;
+  margin-top: 10vw;
   padding-top: 0.5vw;
   padding-bottom: 0.5vw;
+}
+
+/* photography */
+.section-2-two-columntwo {
+ display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
+  background-color: #faf2db;
+  margin-top: 10vw;
+  padding-bottom: 1.5vw;
 }
 
 .photo-2 {
@@ -256,14 +292,31 @@ li {
 }
 
 .photo-3 {
-  width: 90%;
+  width: 100%;
   margin-left: 5vw;
+  margin-top: 1w;
+}
+
+/* photography photo */
+.photo-6 {
+  width: 100%;
+  margin-left: 3vw;
+  margin-top: 4vw;
+}
+
+/* writing photo */
+.photo-three {
+  width: 90%;
+  margin-left: 4vw;
   margin-top: 2vw;
 }
 
+/* photography */
 .photo-4 {
   width: 90%;
+  height: 75%;
   border-radius: 0.8vw;
+  margin-top: 1vw;
 }
 
 .section-3-three-column {
@@ -352,14 +405,4 @@ button:hover {
   text-align: left;
   padding-top: 1vw;
   padding-bottom: 1vw;
-}
-
-.section-2-two-column2{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5vw;
-  background-color: #faf2db;
-  margin-top: 10vw;
-  padding-top: 0.5vw;
-  padding-bottom: 0.5vw;
 }
