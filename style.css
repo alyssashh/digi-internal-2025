@@ -349,11 +349,12 @@ li {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+/* index */
 .picture {
   width: 80%;
   align-items: center;
   margin-left: 3vw;
-  margin-top: 3vw;
+  margin-top: -2vw;
   margin-bottom: -2vw;
   border-radius: 0.8vw;
 }
