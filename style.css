@@ -354,11 +354,12 @@ li {
   width: 80%;
   align-items: center;
   margin-left: 3vw;
-  margin-top: -2vw;
+  margin-top: 3vw;
   margin-bottom: -2vw;
   border-radius: 0.8vw;
 }
 
+/* painting */
 .picture1 {
   width: 80%;
   align-items: center;
