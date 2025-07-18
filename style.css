@@ -317,6 +317,7 @@ li {
   height: 75%;
   border-radius: 0.8vw;
   margin-top: 1vw;
+  margin-bottom: 0.5vw;
 }
 
 .section-3-three-column {
@@ -390,8 +391,7 @@ button {
 
 button a {
   text-decoration: none;
-  font-size: 1.1vw;
-  margin-bottom: 25vw;
+  font-size: 1vw;
   color: #000;
 }
 
