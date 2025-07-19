@@ -387,6 +387,9 @@ button {
   margin-left: 13vw;
   width: 7vw;
   height: 2.3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button a {
