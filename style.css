@@ -379,7 +379,7 @@ li {
   border-radius: 0.8vw;
 }
 
-button {
+.button {
   background-color: #BA96B0;
   border-radius: 0.8vw;
   border-style: none;
@@ -390,9 +390,10 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 1vw;
 }
 
-button a {
+.button a {
   text-decoration: none;
   font-size: 1vw;
   color: #000;
