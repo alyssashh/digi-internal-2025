@@ -230,7 +230,7 @@ margin-top: 1.5vw;
 }
 
 
-h1 {
+h2 {
   font-size: 2.5vw;
 }
 
@@ -379,7 +379,7 @@ li {
   border-radius: 0.8vw;
 }
 
-button {
+.button {
   background-color: #BA96B0;
   border-radius: 0.8vw;
   border-style: none;
@@ -390,17 +390,15 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-button a {
+  margin-top: 1vw;
   text-decoration: none;
   font-size: 1vw;
   color: #000;
 }
 
-button:hover {
+.button:hover {
   background-color: #6f462abd;
-  color: #428bca;
+  color: #ffffff;
 }
 
 .footer {
