@@ -1,18 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 
-body{
-  margin: 0;
-}
-
-
-
-
 * {
   font-family: "Jua", sans-serif;
   font-weight: 100;
   font-style: normal;
 }
 
+body{
+  margin: 0;
+}
+
+.footer {
+  width: 100%;
+  background-color: #aecbe4;
+  color: #000;
+  text-align: left;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+h2 {
+  font-size: 2.5vw;
+}
+
+li {
+  font-size: 1.2vw;
+}
+
+.button {
+  background-color: #BA96B0;
+  border-radius: 0.8vw;
+  border-style: none;
+  margin-bottom: 2vw;
+  margin-left: 13vw;
+  width: 7vw;
+  height: 2.3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1vw;
+  text-decoration: none;
+  font-size: 1vw;
+  color: #000;
+}
+
+.button:hover {
+  background-color: #6f462abd;
+  color: #ffffff;
+}
+
+/* navigation bar */
 nav {
   display: flex;
   align-items: center;
@@ -37,7 +74,6 @@ nav a {
   font-size: 1.5vw;
   height: 3vw;
   width: 9vw;
-  /* height and width is where u change stuff */
   padding: 0.4vw 0.8vw;
 }
 
@@ -50,21 +86,15 @@ nav a.active {
   background-color: #e8e1f8;
   color: #000000;
 }
+/* navigation bar styling end */
 
+/* home logo image */
 .home-logo {
  width: 15vw;
 margin-top: 1.5vw;
 }
 
 /* carousel */
-.carousel {
-  position: relative;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 100%;
-}
-
 .carousel-inner {
   position: relative;
   overflow: hidden;
@@ -161,6 +191,7 @@ margin-top: 1.5vw;
   color: #428bca;
 }
 
+/* title box */
 .caption {
   position: absolute;
   top: 12vw;
@@ -176,7 +207,9 @@ margin-top: 1.5vw;
   height: 10vw;
   z-index: 10;
 }
+/* carousel styling end */
 
+/* painting title box */
 .caption-2 {
   position: absolute;
   top: 12vw;
@@ -193,7 +226,7 @@ margin-top: 1.5vw;
   z-index: 10;
 }
 
-/* homepage first section */
+/* homepage first section (what is this website)*/
 .section-1-two-column{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -202,7 +235,7 @@ margin-top: 1.5vw;
   margin-left: 6vw;
 }
 
-/* homepage second section*/
+/* homepage second section (what is artblock)*/
 .section-2-two-column{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -212,7 +245,7 @@ margin-top: 1.5vw;
   margin-bottom: 3vw;
 }
 
-/* homepage third section */
+/* homepage third section (buttons to other pages)*/
 .section-3-three-column {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -220,19 +253,19 @@ margin-top: 1.5vw;
   padding-bottom: 2vw;
 }
 
-/* photo of colour pencils and sketch in homepage */
+/* photo next to homepage first section */
 .sketchphoto {
  width: 90%; 
 }
 
-/* photo of paint in homepage */
+/* photo next to homepage second section*/
 .paint {
   width: 90%;
   margin-left: 3vw;
   margin-top: 2vw;
 }
 
-/* button photos in homepage, my own drawing attempts in painting page, */
+/* button photos in homepage, my own drawings in painting page, my own photographs in photography page*/
 .picture {
   width: 80%;
   align-items: center;
@@ -242,7 +275,7 @@ margin-top: 1.5vw;
   border-radius: 0.8vw;
 }
 
-/* painting first section */
+/* painting first section (how do I get back into painting) */
 .section-1-two-column2{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -252,7 +285,7 @@ margin-top: 1.5vw;
   margin-bottom: -6vw;
 }
 
-/* painting second section + writing*/
+/* painting second section (prompts) + writing second section (prompts) */
 .section-2-two-column2{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -263,14 +296,21 @@ margin-top: 1.5vw;
   padding-bottom: 0.5vw;
 }
 
-/* painting third section */
-.section-3-three-column3 {
+/* painting third section (my own drawings) + photography third section (my own photographs)*/
+.section-3-three-column2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 3vw;
 }
 
-/* photo of painting in painting page */
+/* last section in painting (other artists recommendations)*/
+.section-4-three-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #faf2db;
+}
+
+/* photo next to painting first section */
 .paintingphoto {
  width: 90%; 
  margin-top: 2vw;
@@ -283,99 +323,8 @@ margin-top: 1.5vw;
   margin-top: 1vw;
 }
 
-
-.section-one-two-column{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8vw;
-  margin-top: 2vw;
-  margin-left: 6vw;
-  margin-bottom: -5vw;
-}
-
-
-/* photography column */
-.section-one-two-column2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8vw;
-  margin-top: 2vw;
-  margin-left: 6vw;
-  margin-bottom: -12vw;
-}
-
-h2 {
-  font-size: 2.5vw;
-}
-
-li {
-  font-size: 1.2vw;
-}
-
-.photo-one {
- width: 90%; 
- margin-left: 10vw;
- margin-top: 2vw;
-}
-
-.photo-5 {
- width: 85%; 
-}
-
-/* photography */
-.section-2-two-columntwo {
- display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5vw;
-  background-color: #faf2db;
-  margin-top: 10vw;
-  padding-bottom: 1.5vw;
-}
-
-
-/* photography photo */
-.photo-6 {
-  width: 100%;
-  margin-left: 3vw;
-  margin-top: 4vw;
-}
-
-/* writing photo */
-.photo-three {
-  width: 90%;
-  margin-left: 4vw;
-  margin-top: 2vw;
-}
-
-/* photography */
-.photo-4 {
-  width: 90%;
-  height: 75%;
-  border-radius: 0.8vw;
-  margin-top: 1vw;
-  margin-bottom: 0.5vw;
-}
-
-.section-4-three-column3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: #faf2db;
-}
-
-.section-3-three-column4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-bottom: 2vw;
-}
-
-.section-3-three-column5 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-
-/* painting */
-.picture1 {
+/* artist recommendation photos, author recommendation photos, photographer recommendation photos */
+.photo {
   width: 80%;
   align-items: center;
   margin-left: 3.5vw;
@@ -384,7 +333,37 @@ li {
   border-radius: 0.8vw;
 }
 
-.picture1tweak {
+/* writing first section (writing tips) */
+.section-1-two-column3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8vw;
+  margin-top: 2vw;
+  margin-left: 6vw;
+  margin-bottom: -5vw;
+}
+
+/* writing last section (author recommendations) */
+.section-3-three-column3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 2vw;
+}
+
+/* photo next to writing tips */
+.brainstorm-photo {
+ width: 85%; 
+}
+
+/* writing photo in prompt list */
+.writingprompt {
+  width: 90%;
+  margin-left: 4vw;
+  margin-top: 2vw;
+}
+
+/* photo of tea and doctor in author recommendations in writing page */
+.photo2 {
   width: 80%;
   align-items: center;
   margin-left: 3.5vw;
@@ -393,33 +372,45 @@ li {
   border-radius: 0.8vw;
 }
 
-.button {
-  background-color: #BA96B0;
+
+/* photography first section (apps for photography)*/
+.section-1-two-column4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8vw;
+  margin-top: 2vw;
+  margin-left: 6vw;
+  margin-bottom: -12vw;
+}
+
+/* photography second section (prompts) */
+.section-2-two-column3 {
+ display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
+  background-color: #faf2db;
+  margin-top: 10vw;
+  padding-bottom: 1.5vw;
+}
+
+/* photography last section (photographer recommendations) */
+.section-4-three-column2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* photo next to app photography section */
+.editingphoto {
+  width: 90%;
+  height: 75%;
   border-radius: 0.8vw;
-  border-style: none;
-  margin-bottom: 2vw;
-  margin-left: 13vw;
-  width: 7vw;
-  height: 2.3vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-top: 1vw;
-  text-decoration: none;
-  font-size: 1vw;
-  color: #000;
+  margin-bottom: 0.5vw;
 }
 
-.button:hover {
-  background-color: #6f462abd;
-  color: #ffffff;
-}
-
-.footer {
+/* photography photo in prompt list */
+.polaroids {
   width: 100%;
-  background-color: #aecbe4;
-  color: #000;
-  text-align: left;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
+  margin-left: 3vw;
+  margin-top: 4vw;
 }
