@@ -193,6 +193,7 @@ margin-top: 1.5vw;
   z-index: 10;
 }
 
+/* homepage first section */
 .section-1-two-column{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -200,6 +201,88 @@ margin-top: 1.5vw;
   margin-top: 2vw;
   margin-left: 6vw;
 }
+
+/* homepage second section*/
+.section-2-two-column{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2vw;
+  margin: 2vw;
+  margin-left: 1vw;
+  margin-bottom: 3vw;
+}
+
+/* homepage third section */
+.section-3-three-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #faf2db;
+  padding-bottom: 2vw;
+}
+
+/* photo of colour pencils and sketch in homepage */
+.sketchphoto {
+ width: 90%; 
+}
+
+/* photo of paint in homepage */
+.paint {
+  width: 90%;
+  margin-left: 3vw;
+  margin-top: 2vw;
+}
+
+/* button photos in homepage, my own drawing attempts in painting page, */
+.picture {
+  width: 80%;
+  align-items: center;
+  margin-left: 3vw;
+  margin-top: 3vw;
+  margin-bottom: -2vw;
+  border-radius: 0.8vw;
+}
+
+/* painting first section */
+.section-1-two-column2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
+  margin-top: 2vw;
+  margin-left: 6vw;
+  margin-bottom: -6vw;
+}
+
+/* painting second section + writing*/
+.section-2-two-column2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
+  background-color: #faf2db;
+  margin-top: 10vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+}
+
+/* painting third section */
+.section-3-three-column3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 3vw;
+}
+
+/* photo of painting in painting page */
+.paintingphoto {
+ width: 90%; 
+ margin-top: 2vw;
+}
+
+/* photo in prompt section of painting */
+.promptphoto {
+  width: 100%;
+  margin-left: 5vw;
+  margin-top: 1vw;
+}
+
 
 .section-one-two-column{
   display: grid;
@@ -210,14 +293,6 @@ margin-top: 1.5vw;
   margin-bottom: -5vw;
 }
 
-.section-1-two-column2{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5vw;
-  margin-top: 2vw;
-  margin-left: 6vw;
-  margin-bottom: -6vw;
-}
 
 /* photography column */
 .section-one-two-column2 {
@@ -229,7 +304,6 @@ margin-top: 1.5vw;
   margin-bottom: -12vw;
 }
 
-
 h2 {
   font-size: 2.5vw;
 }
@@ -238,41 +312,14 @@ li {
   font-size: 1.2vw;
 }
 
-.photo-1 {
- width: 90%; 
- margin-left: 10w;
-}
-
 .photo-one {
  width: 90%; 
- margin-left: 10w;
+ margin-left: 10vw;
  margin-top: 2vw;
 }
 
 .photo-5 {
  width: 85%; 
-}
-
-/* index */
-.section-2-two-column{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2vw;
-  margin: 2vw;
-  margin-left: 1vw;
-  margin-bottom: 3vw;
-}
-
-
-/* painting + writing*/
-.section-2-two-column2{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5vw;
-  background-color: #faf2db;
-  margin-top: 10vw;
-  padding-top: 0.5vw;
-  padding-bottom: 0.5vw;
 }
 
 /* photography */
@@ -285,17 +332,6 @@ li {
   padding-bottom: 1.5vw;
 }
 
-.photo-2 {
-  width: 90%;
-  margin-left: 3vw;
-  margin-top: 2vw;
-}
-
-.photo-3 {
-  width: 100%;
-  margin-left: 5vw;
-  margin-top: 1w;
-}
 
 /* photography photo */
 .photo-6 {
@@ -320,19 +356,6 @@ li {
   margin-bottom: 0.5vw;
 }
 
-.section-3-three-column {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: #faf2db;
-  padding-bottom: 2vw;
-}
-
-.section-3-three-column3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-bottom: 3vw;
-}
-
 .section-4-three-column3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -350,15 +373,6 @@ li {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* index */
-.picture {
-  width: 80%;
-  align-items: center;
-  margin-left: 3vw;
-  margin-top: 3vw;
-  margin-bottom: -2vw;
-  border-radius: 0.8vw;
-}
 
 /* painting */
 .picture1 {
